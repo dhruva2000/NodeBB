@@ -3,13 +3,13 @@
 
 import nconf from 'nconf';
 
-import { Request, Response, NextFunction } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import { TopicObject } from '../types';
 
-import user from '../user';
 import plugins from '../plugins';
-import topics from '../topics';
 import posts from '../posts';
+import topics from '../topics';
+import user from '../user';
 import helpers from './helpers';
 
 type ComposerBuildData = {

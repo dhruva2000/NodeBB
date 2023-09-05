@@ -16,10 +16,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.post = exports.get = void 0;
 const nconf_1 = __importDefault(require("nconf"));
-const user_1 = __importDefault(require("../user"));
 const plugins_1 = __importDefault(require("../plugins"));
-const topics_1 = __importDefault(require("../topics"));
 const posts_1 = __importDefault(require("../posts"));
+const topics_1 = __importDefault(require("../topics"));
+const user_1 = __importDefault(require("../user"));
 const helpers_1 = __importDefault(require("./helpers"));
 function get(req, res, callback) {
     return __awaiter(this, void 0, void 0, function* () {
